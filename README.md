@@ -61,7 +61,18 @@ pip install -r requirements.txt
 
 ### Usage
 
-#### Option 1: Run the Python Script
+#### Quick Start: Run the Demo (Recommended for first-time users)
+```bash
+python demo.py
+```
+
+This provides a quick demonstration of key ML capabilities:
+- Life expectancy prediction
+- Country clustering
+- Feature importance analysis
+- Sample results in under 30 seconds
+
+#### Option 1: Run the Full Analysis Script
 ```bash
 python analysis.py
 ```
@@ -130,6 +141,7 @@ Global-Country-Info-Analysis/
 ├── world-data-2023.csv      # Dataset
 ├── analysis.py              # Main analysis script
 ├── analysis.ipynb           # Jupyter notebook
+├── demo.py                  # Quick demo script
 ├── requirements.txt         # Python dependencies
 ├── .gitignore              # Git ignore file
 ├── README.md               # This file
